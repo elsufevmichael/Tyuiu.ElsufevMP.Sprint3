@@ -16,7 +16,7 @@ namespace Tyuiu.ElsufevMP.Sprint3.Task0.V26.Lib
             int i;
             for ( i = startValue; i <= stopValue; i++)
             {
-                series = series + (((Math.Pow(2, i)) / (i + 1)) * Math.Cos(1.8));
+                series = series * (((Math.Pow(2, i)) / (i + 1)) * Math.Cos(1.8));
             }
             return Math.Round(series, 3);
         }
